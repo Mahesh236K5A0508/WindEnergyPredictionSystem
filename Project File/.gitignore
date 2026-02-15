@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .env
+power_prediction.sav
+# to run this command on the vs code to train thr data train_model.py then there will be created the power_prediction.sav file which is the model file and we don't want to push that file to the github repository so we are adding that file in the .gitignore file.
+# after that give the command as app.py to run the flask app and then we can see the output in the browser.
